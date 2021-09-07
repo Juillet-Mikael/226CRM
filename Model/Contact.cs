@@ -30,7 +30,7 @@ namespace CrmBusiness
         #region public methods
         public Contact(string name, string firstname, DateTime dateOfBirth, string nationality, string email, string pathToImg = "/")
         {
-            //TODO
+            _name = name;
         }
 
         /// <summary>
